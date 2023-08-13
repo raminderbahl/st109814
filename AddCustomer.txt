@@ -1,0 +1,36 @@
+' *******************************************************************************************
+
+'' BAHL Consultancy Testing
+'' Copyright (c) 2009 BAHL
+'' All rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *******************************************************************************************
+'' FILENAME: addcustomer
+'' ********************************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY: 
+
+'' Initials                                                          Name/Company
+'' ---------                                                         ---------------------------
+'' rk                                                                Raminder Kaur BAHL INC 
+
+'' REVISION HISTORY:
+
+'' Date/Initials                                 Comments
+'' ---------------                                         --------------------------------------
+
+'' 04/20/2023    rk                       Created for LoanApp 2.1
+
+'Function to add Customer
+' Valid Input
+AddCustomer "John", "Doe", "23456 KB BLVD", "Burnaby, "BC", "V3S6P8"
+' Valid Input
+AddCustomer "Jack", "Smith", "23456 KB BLVD", "Burnaby", "BC", "V3S6P8"
+
+
+AddCustomer "Joe", "Black", "23456 KB BLVD", "Surrey", "BC", "V3S6P8"
+' Invalid Input
+AddCustomer "", "Black", "23456 KB BLVD", "Surrey", "BC", "V3S6P8"
+' Inalid Input
+AddCustomer "Joe", "", "23456 KB BLVD", "Surrey", "BC", "V3S6P8"
