@@ -24,6 +24,12 @@
 
 'Function to add Customer
 ' Valid Input
+AddCustomer "Roger", "Pane", "330 George St", "Burnaby, "BC", "V3S6P8"
+' Valid Input
+AddCustomer "Jane", "Smith", "23456 KB BLVD", "Burnaby, "BC", "V3S6P8"
+' Valid Input
+AddCustomer "Jody", "Smith", "23456 KB BLVD", "Burnaby", "BC", "V3S6P8"
+
 AddCustomer "John", "Doe", "23456 KB BLVD", "Burnaby, "BC", "V3S6P8"
 ' Valid Input
 AddCustomer "Jack", "Smith", "23456 KB BLVD", "Burnaby", "BC", "V3S6P8"
