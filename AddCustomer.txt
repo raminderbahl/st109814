@@ -25,6 +25,8 @@
 ' "To test new ideas"
 'Function to add Customer
 ' Valid Input
+AddCustomer "Peter", "Pane", "330 George St", "Burnaby, "BC", "V3S6P8"
+' Valid Input
 AddCustomer "Roger", "Pane", "330 George St", "Burnaby, "BC", "V3S6P8"
 ' Valid Input
 AddCustomer "Jane", "Smith", "23456 KB BLVD", "Burnaby, "BC", "V3S6P8"
