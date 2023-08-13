@@ -22,6 +22,7 @@
 
 '' 04/20/2023    rk                       Created for LoanApp 2.1
 
+' "To test new ideas"
 'Function to add Customer
 ' Valid Input
 AddCustomer "Roger", "Pane", "330 George St", "Burnaby, "BC", "V3S6P8"
